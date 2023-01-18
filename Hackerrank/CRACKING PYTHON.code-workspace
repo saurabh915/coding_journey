@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\WINDOWS\\system32"
+		},
+		{
+			"path": "..\\.."
+		}
+	],
+	"settings": {
+		"explorer.sortOrder": "modified",
+		"liveServer.settings.multiRootWorkspaceName": "my"
+	}
+}
