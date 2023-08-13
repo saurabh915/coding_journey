@@ -1,6 +1,6 @@
 // this is best amoung all sorting techniques
 // this use partition technique
-// TIME COMPLEXITY AV.CASE= O(nlogn) best case= O(nlogn)  worst case O(n^2)
+// TIME COMPLEXITY AV.CASE= O(nlogn) best case= O(nlogn)  worst case O(n^2) and space complexity is O(nlogn)
 
 #include <stdio.h>
 int count=0;
@@ -78,10 +78,12 @@ void quickSort(int A[], int low, int high)
 int main()
 {
 
-    int A[] = {3,1,2}; // try for  77,99,85,44,33,22,100 or 77,11,22,33,44,55,66
-
+    int A[] = {77,11,22,33,44,55,66}; // try for  77,99,85,44,33,22,100 or 77,11,22,33,44,55,66  
+                                      //as the algorithm is first assign pivot as first element and find i and j position 
+                                //a[i] >= pivot and a[j] <= pivot then if i< j then swap array elements
+                                //else you will come out of loop and swap i and j and return j value as partition index
     int n;
-    n = 3;
+    n = 7;
     printArray(A, n);
     quickSort(A, 0, n - 1);
     printArray(A, n);

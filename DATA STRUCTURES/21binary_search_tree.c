@@ -97,7 +97,7 @@ struct node* search(struct node* root , int key)
         }
         else
         {
-            if (root ->data->key)
+            if (root->data >key)
             {
                 root = root->left;
             }
@@ -106,10 +106,7 @@ struct node* search(struct node* root , int key)
                 root=root->right;
                 return search(root->left,key) ;
             }
-            else
-            {
-                return search(root->right, key);
-            }
+    
             
             
         }
@@ -247,10 +244,10 @@ p1->left = p2;
 p1 -> right =p3; //assigning position to nodes of tree
 p4->left =p5;
 p4->right = p6;
-inorder(p);
-deletenode(p,6);
-printf("\n");
-inorder(p);
+// inorder(p);
+// deletenode(p,6);
+// printf("\n");
+// inorder(p);
 // printf("preorder traverser: ");
 // preordertraverse(p);
 // printf("postorder traverser: ");
@@ -260,8 +257,8 @@ inorder(p);
 // printf("is bst: %d\n",isBST(p));
 
 
-// struct node* value =search(p , 2);
-// printf("%d\n",value->data);
+struct node* value =search(p , 2);
+printf("%d\n",value->data);
 // struct node* n = searchitr(p,3);
 // printf("found: %d",n->data);
 

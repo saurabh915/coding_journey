@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    //time and space complexities are O(n^2) and O(1) resp.
     //in selection sort all elements are compared and smallest element is placed at initial position here exact small no. is selected and kept at exact position
     //but in insertion sort initially two elements are compared smallest no. is kept at initial position remaining are shifted to right 
     // store the 'index number' of array of minimum number and paste it to the i position.

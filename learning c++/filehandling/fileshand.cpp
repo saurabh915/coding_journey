@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    string st ="my name saurabh sanjay patil";
+    string st ="whayyy ki";
 ofstream shoout("sample.txt");//helps in opening file
 shoout<<st;
 

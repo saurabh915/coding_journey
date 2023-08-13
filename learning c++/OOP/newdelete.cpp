@@ -17,6 +17,7 @@ for (int i = 0; i < 11; i++)
 {
     array[i]= i;
     cout<<array[i]<<endl;
+    cout<<"array+i"<<endl;
     cout<<array+i<<endl;
 }
 

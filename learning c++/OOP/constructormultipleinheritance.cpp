@@ -28,6 +28,10 @@ public:
     {
         cout << "value of data2" << data2;
     }
+    void printprivate(){
+        cout<<"this is data 2"<<data2<<endl;
+       
+    }
 };
 
 class derived : public base1, public base2
@@ -43,8 +47,8 @@ class derived : public base1, public base2
     void print_data()
     {           
 
-        cout << "value of data1" << derived1;
-        cout << "value of data1" << derived2;
+        cout << "value of data1" << derived1<<endl;
+        cout << "value of data1" << derived2<<endl;
     }
 };
     int main()
@@ -52,5 +56,7 @@ class derived : public base1, public base2
         derived d1(1, 2, 3, 4);
         d1.print_data();
        d1.print_data1();
+       d1.printprivate();
+
         return 0;
     }

@@ -1,4 +1,4 @@
-
+//time and space complexities are O(n^2) and O(1) resp.
 //in bubblesort swapping is done as loop moves towards right side of array and if the element on right side is greater than the left side element just swap it
 // bubble sort is exactly opposite to selection sort in bubble sort largest number is sorted to last index of array.
 // it is done by  moving biggest number to the last and not include that index number of array element again.

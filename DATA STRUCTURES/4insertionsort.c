@@ -1,3 +1,5 @@
+//time and space complexities are O(n^2) and O(1) resp.
+
 #include <stdio.h>
 int main()
 {

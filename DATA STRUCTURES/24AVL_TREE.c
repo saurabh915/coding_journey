@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-void preorder(struct node* );
+// void preorder(struct node* );
 struct node
 {
     int key;
@@ -111,7 +111,7 @@ struct node *insert(struct node *node, int key)//here node is NULL and key is so
         {
                 printf("value of bf and key and node->right->key %d  %d %d in  left left case\n",bf,key,node->right->key);
             printf("as bf is greater than 1 and key<  node ->left->key i am right rotating \n");
-            return rightrotate(node);
+            return rightrotate(node);//rotating left skewed tree to right
         }
         // right right case
         if (bf < -1 && key > node->right->key)

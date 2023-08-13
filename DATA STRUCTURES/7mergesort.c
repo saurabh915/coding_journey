@@ -1,3 +1,6 @@
+// time complexity O(nlogn)  space complexity O(n)
+
+
 /*the overall process here is first break down whole array into  peaces of two elements
 and then make one as low and one as high and one as mid  and start comparing low sided elements with mid+1 sided elements 
  if first element of low sided element is smaller than first element which are on mid+1 side then move it on new array 

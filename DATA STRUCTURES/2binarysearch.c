@@ -1,4 +1,4 @@
-//time complexity is O(logn) >(better)O(n)
+//time complexity is (better)O(logn) < O(n)
 
 #include <stdio.h>
 int main()

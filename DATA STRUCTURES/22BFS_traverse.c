@@ -30,7 +30,7 @@ void enqueue(struct queue *q, int val){
     }
     else{
         q->r++;
-        q->arr[q->r] = val;
+        q->arr[q->r] = val;                      //way to add data in structure or in linked list
         printf("Enqued element: %d\n", val);
     }
 }

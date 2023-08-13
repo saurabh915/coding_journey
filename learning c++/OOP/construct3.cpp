@@ -1,6 +1,8 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
+
+//friend function is used to acces private members of class
 class point 
 {
     int a,b;

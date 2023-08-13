@@ -20,17 +20,24 @@ class unorderedd
            *iter = a;
         }
      unordered_map <int, int> m;   
+     int b= 60;
 for (auto a: vec1)
 {
-    m[a]++;
-  
+    m[a] =b--;
+
 }
 for (auto a : m)
 {
    cout<<a.first<<" "<<a.second<<endl;
 }
-
-
+cout<<"printing with iterator"<<endl;
+ unordered_map <int,int> :: iterator iter2;
+        iter2 = m.begin();
+        for (iter2;iter2 != m.end();iter2++)
+        {
+           
+             cout<<(*iter2).first<<" "<<(*iter2).second<<endl;
+        }
 
     }
  
